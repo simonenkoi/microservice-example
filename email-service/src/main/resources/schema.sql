@@ -1,0 +1,7 @@
+CREATE TABLE email (
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  from_user VARCHAR NOT NULL,
+  to_user VARCHAR NOT NULL,
+  title VARCHAR NOT NULL,
+  description VARCHAR NOT NULL
+);
